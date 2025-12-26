@@ -1,0 +1,30 @@
+.aboutpage{
+    padding:40px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background:white;
+}
+.aboutpage-title{
+    color:#333333;
+    margin-bottom: 24px;
+    font-size:35px;
+}
+.aboutpage-content{
+    color:#666666;
+    font-size:16px;
+    line-height: 1.7;
+
+}
+.aboutpage-content p{
+    margin-bottom:20px;
+}
+.aboutpage-subtitle{
+    color:#667eea;
+    margin-bottom:12px;font-size:24px;
+    margin-top:30px;
+}
+    
+.aboutpage-list{
+    list-style-position: inside;
+    margin-left:20px;
+}

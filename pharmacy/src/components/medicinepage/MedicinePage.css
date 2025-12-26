@@ -1,0 +1,110 @@
+.medicine{
+    padding:20px;
+}
+
+.medicine-title{
+    color:#333333;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.medicine-page-search{
+    width:100%;
+    font-size:16px;
+    padding:12px 16px;
+    border:2px solid #e0e0e0;   
+    margin-bottom: 30px;
+    border-radius:8px;
+}
+.medicine-page-search:focus{
+    border-color:#667eea;
+    outline:none;
+}
+.medicine-grid{
+    display:grid;
+    gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.medicine-card{
+    cursor:pointer;
+    transition: transform 0.3s;
+    background:white;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border-radius:12px;
+}
+
+.medicine-card:hover{
+    transform:translateY(-5px);
+}
+.medicine-card img{
+    height:200px;
+    width:100%;
+    object-fit:cover;   
+    border-radius: 8px;
+    margin-bottom:12px;
+}
+.medicine-card-name{
+    color:#333333;
+    margin-bottom: 8px;
+    font-size:20px;
+}
+.medicine-card-price{
+    color:#667eea;
+    font-weight:600;
+    font-size:18px;
+    margin-bottom:12px;
+
+}
+
+.medicine-addtocart{
+    margin-top:12px;
+}
+.medicine-addbtn{
+    color:white;
+    background:#667eea;
+    cursor:pointer;
+    width:100%;
+    padding:10px;
+    font-size:16px;font-weight:600;
+    border-radius: 6px;
+}
+
+.medicine-addbtn:hover{
+    background:#5568d3;
+}
+
+.medicine-qty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:12px;
+}
+
+.medicine-qty-btn{
+    padding:8px 12px;
+    font-size:16px;
+    background:#e0e0e0;
+    border:2px solid #667eea;
+    border-radius:6px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    width:36px;
+    height:36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.medicine-qty-btn:hover{
+    background:#667eea;
+    color:white
+}
+.medicine-num{
+    font-size:16px;
+    font-weight:600;
+    width:40px;
+    text-align:center;
+
+}

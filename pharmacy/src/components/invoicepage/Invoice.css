@@ -1,0 +1,103 @@
+.invoice{
+    padding:40px;
+    border-radius:12px;
+    background:white;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.invoice-header{
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.invoice-title{
+    color:#333333;
+    font-size:32px;
+    margin-bottom: 12px;
+}
+.invoice-num{
+    color:#667eea;
+    font-weight: 500;
+    font-size:18px;
+    margin-bottom:4px;
+}
+.invoice-date{
+    color:#666666;
+    font-size: 14px;
+}
+.invoice-items{
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+.invoice-table{
+    width:100%;
+    border-collapse: collapse;
+}
+.invoice-table th{
+    color:#333333;
+    background: #f5f5f5;
+    padding:12px;
+    text-align:left;
+    font-weight:600;
+}
+
+.invoice-table td{
+    padding:12px;
+    border-radius:1px solid #e0e0e0;
+}
+.invoice-table tbody tr:last-child td{
+    border-bottom: none;
+}
+
+.invoice-sum{
+    padding:20px;
+    background: #f9f9f9;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+.invoice-sum p{
+    display:flex;
+    color:#666666;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.invoice-total{
+    color:#667eea;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-top:12px;
+    border-top:2px solid #e0e0e0;
+}
+.imvoice-btn{
+    display:flex;
+    gap:12px;
+}
+
+.invoice-back{
+    padding:12px 24px;
+    color: white;
+    border-radius:8px;
+    background: #667eea;
+    cursor:pointer;
+}
+.invoice-back:hover{
+    background:#5568a3;
+}
+.invoice-print{
+    color:white;
+    background:#28a745;
+    padding:12px 24px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+}
+.invoice-print:hover{
+    background:#218838;
+}
+@media copy{
+    .invoice-btn{
+        display:none;
+    }
+}
